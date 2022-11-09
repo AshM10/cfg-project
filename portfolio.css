@@ -1,12 +1,77 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+:root {
+  --primary-font-family: "Montserrat", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
+  --primary-color: #ffffff;
+  --secondary-color: #f65282;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
+body {
+  color: var(--primary-color);
+}
+
+.hero {
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1440px;
+  height: 900px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding-top: 17.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.hero h1 {
+  font-family: var(--default-font-family);
+  font-size: 72px;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.btn-branding {
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  font-family: var(--primary-font-family);
+  font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  width: 200px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: smaller;
+  }
+
+  .btn-branding {
+    font-size: smaller;
+    width: 180px;
+  }
 }
