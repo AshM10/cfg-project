@@ -11,8 +11,51 @@ body {
   background-color: var(--background-color);
 }
 
+footer {
+  display: flex;
+  width: 1440px;
+  height: 100px;
+  background-color: #282323;
+  color: var(--primary-color);
+  padding: 2rem 0 2rem 11rem;
+}
+
+footer .name {
+  font-size: 23px;
+}
+
+footer .socials {
+  padding-left: 24rem;
+}
+
+footer .credits {
+  font-size: 12px;
+  padding-left: 17.5rem;
+}
+
+footer .socials a {
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .socials a:hover {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
 .container {
   padding: 6rem;
+}
+
+.navbar {
+  font-family: var(--default-font-family);
+  padding-left: 10rem;
+}
+
+.navbar-nav {
+  padding-left: 48rem;
 }
 
 .hero {
