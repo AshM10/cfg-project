@@ -124,6 +124,12 @@ footer .socials a:hover {
     margin-top: 2rem;
   }
 
+  .navbar,
+  .navbar-nav {
+    padding: 0;
+    width: 100%;
+  }
+
   .hero {
     width: 100%;
   }
@@ -147,6 +153,33 @@ footer .socials a:hover {
 
   .rewrite {
     flex-direction: column;
+  }
+
+  footer {
+    width: auto;
+    padding: 1rem 0.4rem;
+  }
+
+  footer .name {
+    font-size: 23px;
+  }
+
+  footer .socials {
+    display: flex;
+    padding-left: 0;
+  }
+
+  footer .credits {
+    font-size: 10px;
+    padding-left: 0.8rem;
+    margin-top: 1.2rem;
+  }
+
+  footer .socials a {
+    margin-left: -2px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    color: var(--primary-color);
   }
 
   img {
