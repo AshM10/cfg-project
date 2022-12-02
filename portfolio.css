@@ -157,6 +157,42 @@ footer .socials a:hover {
 
   footer {
     width: auto;
+    padding: 1rem;
+  }
+
+  footer .name {
+    font-size: 23px;
+  }
+
+  footer .socials {
+    display: flex;
+  }
+
+  footer .credits {
+    font-size: 15px;
+    padding-left: 0.8rem;
+  }
+
+  footer .socials a {
+    border-radius: 50%;
+    color: var(--primary-color);
+  }
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar,
+  .navbar-nav {
+    padding: 0;
+    width: 100%;
+  }
+
+  footer {
+    width: auto;
     padding: 1rem 0.4rem;
   }
 
@@ -180,10 +216,5 @@ footer .socials a:hover {
     margin-top: 1rem;
     border-radius: 50%;
     color: var(--primary-color);
-  }
-
-  img {
-    margin: 0 auto;
-    width: 100%;
   }
 }
