@@ -13,24 +13,20 @@ body {
 
 footer {
   display: flex;
+  justify-content: space-between;
   width: 1440px;
   height: 100px;
   background-color: #282323;
   color: var(--primary-color);
-  padding: 2rem 0 2rem 11rem;
+  padding: 2rem 7rem 2rem 10rem;
 }
 
 footer .name {
   font-size: 23px;
 }
 
-footer .socials {
-  padding-left: 24rem;
-}
-
 footer .credits {
   font-size: 12px;
-  padding-left: 17.5rem;
 }
 
 footer .socials a {
@@ -119,6 +115,10 @@ footer .socials a:hover {
 }
 
 @media (max-width: 900px) {
+  body {
+    width: fit-content;
+  }
+
   main {
     padding: 1rem;
     margin-top: 2rem;
@@ -185,12 +185,6 @@ footer .socials a:hover {
 }
 
 @media (max-width: 425px) {
-  .navbar,
-  .navbar-nav {
-    padding: 0;
-    width: 100%;
-  }
-
   footer {
     width: auto;
     padding: 1rem 0.4rem;
