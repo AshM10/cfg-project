@@ -115,10 +115,6 @@ footer .socials a:hover {
 }
 
 @media (max-width: 900px) {
-  body {
-    width: fit-content;
-  }
-
   main {
     padding: 1rem;
     margin-top: 2rem;
