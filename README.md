@@ -17,3 +17,7 @@ A Photographer Portfolio Website
 
 ### How will you expand your current project?
 - I definitely need to add three more pages and link them to the navigation bar. I also need to integrate more JavaScript in the gallery page so I can store data (art photos) in a directory and map through them and pass it to the DOM. 
+
+## Author
+
+- 👸🏼 Connect with ASTHER MORENO on [LinkedIn](https://www.linkedin.com/in/asthermoreno10/) and [GitHub](https://github.com/AshM10)
