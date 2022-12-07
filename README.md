@@ -20,4 +20,4 @@ A Photographer Portfolio Website
 
 ## Author
 
-- 👸🏼 Connect with ASTHER MORENO on [LinkedIn](https://www.linkedin.com/in/asthermoreno10/) and [GitHub](https://github.com/AshM10)
+- 👸🏼 Connect with ASTHER MORENO on [LinkedIn](https://www.linkedin.com/in/asthermoreno10/) and [Twitter](https://twitter.com/sexy_gravy).
