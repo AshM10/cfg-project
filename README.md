@@ -1,5 +1,10 @@
 # cfg-project
 
+A Photographer Portfolio Website
+
+![Screenshot 2022-12-07 at 1 44 19 PM](https://user-images.githubusercontent.com/89284873/206280498-03fc5c7b-53ae-4d03-b62e-5f19b9a322f0.png)
+
+
 - [Hosted on Netlify](https://cfg-project.netlify.app)
 
 ## CFG PRESENTATION TAKEAWAY
